@@ -1,0 +1,27 @@
+
+.card_hovar{
+ font-size: medium;
+}
+.card_hovar:hover{
+    transform: scale(1.03);
+    transition: transform 3s ease 0s;
+}
+
+audio {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    width: 500px;
+    border-radius: 0;
+}
+
+audio::-webkit-media-slider-container {
+    background-color: red;
+}
+
+.list-table {
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
